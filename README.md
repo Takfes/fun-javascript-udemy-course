@@ -3,7 +3,7 @@
 
 * [Link to Udemy tutorial](https://www.udemy.com/course/learn-javascript-from-beginner-to-advanced/)
 * [Main JS Script](js/scripts.js)
-* [WeDesign Script](Wedesign_en/js/scripts.js)
+* WeDesign [JS](Wedesign_en/js/scripts.js) and [HTML](Wedesign_en/index.html) scripts
 
 <br>
 
@@ -90,6 +90,17 @@ $( "#hide-button" ).click(function() {
     $(this).hide(2000, function(){
         $("#hidden-text").show();
     });
+});
+
+// Animate
+$("#animate").click(function(){
+    $("#square").animate({
+        width: '+=50px',
+        height: '+=50px'
+    },500);
+    $("#square").animate({
+        marginLeft: '+=50px'
+    }),500;
 });
 
 ```

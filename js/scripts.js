@@ -2,6 +2,17 @@
 // jQuery Practice
 // ***********************************
 
+// Animate
+$("#animate").click(function(){
+    $("#square").animate({
+        width: '+=50px',
+        height: '+=50px'
+    },500);
+    $("#square").animate({
+        marginLeft: '+=50px'
+    }),500;
+});
+
 // Effects with Callback
 // $("#toggle-tab").click(function() {
 //     $("#tab-content").fadeToggle();
