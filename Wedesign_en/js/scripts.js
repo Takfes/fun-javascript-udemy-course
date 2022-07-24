@@ -72,16 +72,30 @@ var ourServices = [
   
 ];
 
+var serviceNext = document.getElementById('service-next')
+var servicePrevious = document.getElementById('service-previous')
+var serviceTitle = document.getElementById('service-title') 
+var serviceText = document.getElementById('service-text')
+var serviceIdx = 0
 
+serviceNext.onclick = function() {
+  if(serviceIdx==(ourServices.length-1)){
+    serviceIdx = 0
+  } else {
+    serviceIdx += 1
+  }
+  serviceTitle.innerHTML = ourServices[serviceIdx]['title']
+  serviceText.innerHTML = ourServices[serviceIdx]['text']
+}
 
-
+servicePrevious.onclick = function() {
+  if(serviceIdx==0){
+    serviceIdx = (ourServices.length-1)
+  } else {
+    serviceIdx -= 1
+  }
+  serviceTitle.innerHTML = ourServices[serviceIdx]['title']
+  serviceText.innerHTML = ourServices[serviceIdx]['text']
+}
 
 // Footer
-
-
-
-  
-   
-
-
-   
