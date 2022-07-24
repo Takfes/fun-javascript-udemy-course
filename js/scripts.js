@@ -1,3 +1,107 @@
+// ***********************************
+// jQuery Practice
+// ***********************************
+
+// Effects with Callback
+// $("#toggle-tab").click(function() {
+//     $("#tab-content").fadeToggle();
+//     $("#toggle-tab").toggleClass("flip");
+// });
+// $("#toggle-tab").click(function() {
+//     $("#tab-content").slideToggle(500);
+//     $("#toggle-tab").toggleClass("flip");
+// });
+// $("#toggle-tab").click(function() {
+//     $("#tab-content").toggle();
+//     $("#toggle-tab").toggleClass("flip");
+// });
+// $( "#hide-button" ).click(function() {
+//     $(this).hide(2000, function(){
+//         $("#hidden-text").show();
+//     });
+// });
+
+// // Keyup event and ternary if to show-hide button
+// $("#fullName").on("keyup",function(){
+//     var coo = $("#fullName").val()
+//     var btn = $("#submit")
+//     coo == "" ? btn.hide() : btn.show();
+// });
+
+// // Add-Remove-ToggleClass
+// $("#add_class").click( function(){
+//     $("#example-paragraph").addClass("styling");
+// } );
+// $("#remove_class").click( function(){
+//     $("#example-paragraph").removeClass();
+// } );
+// $("#toggle_class").click( function(){
+//     $("#example-paragraph").toggleClass("styling");
+// } );
+
+// // Manipulate Check-Boxes
+// $("input[name='interest']").change( function(){
+//     var selectedChkb = $("input[name='interest']:checked")
+//     // console.log(selectedChkb)
+//     $.each(selectedChkb,function(index,value){
+//         // console.log(value)
+//         console.log( $(value).parent().text() )
+//     })
+// } );
+
+// // Manipulate Radio-buttons
+// $("input[name='gender']").change( function(){
+//     // console.log("changed")
+//     // console.log($("input[name='gender']:checked").val())
+//     console.log($("input[name='gender']:checked").parent().text())
+// } );
+
+// // Manipulate DropDown
+// $("#options").change( function(){
+//     // var chkb = $("#options").val()
+//     var chkb = $("#options option:selected").text()
+//     console.log(chkb)
+// } );
+
+// // Manipulate value of the element
+// $("#name_field").val("Rachel Green")
+// var contentVar = $("#name_field").val();
+// console.log(contentVar);
+
+// // Manipulate an element
+// $("#empty_paragraph").html("")
+// $("#empty_paragraph").empty()
+// $("#empty_paragraph").remove()
+// $("#empty_paragraph").hide()
+
+// // Change icon on click
+// $("#change_image").click( function(){
+//     $("#imagem_js").attr("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPyWY7e3vWhLAKW4b41Hg4n03gXVX176H-Ew&usqp=CAU")
+//     $("#change_image").hide();
+// } );
+
+// // Change attribute
+// $("#link-element").attr("href","https://www.google.com")
+
+// // Change .text()
+// var bar = $("#sample-text-only").text()
+// console.log(bar)
+// bar = $("#sample-text-only").text("Changed this using .text()")
+
+// Change .html()
+// var foo = $("#sample_text").html();
+// console.log(foo);
+// $("#sample_text").html("Changed .html() through jQuery");
+
+// Hide items on click
+// $("#hide").click( function(){
+//     // $(".example").css('display','none');
+//     $(".example").hide();
+// } );
+
+// Change even rows background color
+// $("tr:even").css('backgroundColor','#fcd7d4')
+
 
 // ***********************************
 // List of Exercises # 4
