@@ -1,18 +1,30 @@
 
 ### Navigate Repo
 
-* [Link to Udemy tutorial](https://www.udemy.com/course/learn-javascript-from-beginner-to-advanced/)
-* [Main JS Script](js/scripts.js)
+* [Udemy tutorial](https://www.udemy.com/course/learn-javascript-from-beginner-to-advanced/)
+* [JS script](js/scripts.js)
+* [jQuery cheat](https://htmlcheatsheet.com/jquery/)
+* [Ajax Vanilla](https://htmlpreview.github.io/?https://github.com/Takfes/js-udemy/blob/master/47-ajax-response.html)
+* [Ajax jQuery](https://htmlpreview.github.io/?https://github.com/Takfes/js-udemy/blob/master/48-ajax-jquery.html)
 * WeDesign [JS](Wedesign_en/js/scripts.js)-[HTML](https://htmlpreview.github.io/?https://github.com/Takfes/js-udemy/blob/master/Wedesign_en/index.html)
 * Tshirts [JS](tshirts/js/scripts.js)-[HTML](https://htmlpreview.github.io/?https://github.com/Takfes/js-udemy/blob/master/tshirts/index.html)
-* [JQuery Events](https://htmlpreview.github.io/?https://github.com/Takfes/js-udemy/blob/master/37-jquery-events.html)
-* [BOM ](https://htmlpreview.github.io/?https://github.com/Takfes/js-udemy/blob/master/25-bom.html)
 
 <br>
 
 ### Quick Access
 
 ```js
+// different function declarations
+function f1(){
+    console.log('Hello from f1')
+}
+let f2 = function(){
+    console.log('Hello from f2')
+}
+let f3 = () =>{
+    console.log('Hello from f3')
+}
+
 // jQuery's syntax
 element.click( function(){ } )
 // Javascript's syntax

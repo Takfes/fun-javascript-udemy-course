@@ -1,17 +1,42 @@
+
+// ***********************************
+// Different function declarations
+// ***********************************
+
+// function f1(){
+//     console.log('Hello from f1')
+// }
+// let f2 = function(){
+//     console.log('Hello from f2')
+// }
+// let f3 = () =>{
+//     console.log('Hello from f3')
+// }
+
+// ***********************************
+// BOM example
+// ***********************************
+
+// window.onmousemove = function(e){
+//     if (e.pageY < 5) {
+//         alert("Don't miss our flash sale. Go to the the products section for exclusive discounts.");
+//     }
+// };
+
 // ***********************************
 // jQuery Practice
 // ***********************************
 
-// Animate
-$("#animate").click(function(){
-    $("#square").animate({
-        width: '+=50px',
-        height: '+=50px'
-    },500);
-    $("#square").animate({
-        marginLeft: '+=50px'
-    }),500;
-});
+// // Animate
+// $("#animate").click(function(){
+//     $("#square").animate({
+//         width: '+=50px',
+//         height: '+=50px'
+//     },500);
+//     $("#square").animate({
+//         marginLeft: '+=50px'
+//     }),500;
+// });
 
 // Effects with Callback
 // $("#toggle-tab").click(function() {
