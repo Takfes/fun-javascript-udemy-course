@@ -4,6 +4,8 @@
 * [Link to Udemy tutorial](https://www.udemy.com/course/learn-javascript-from-beginner-to-advanced/)
 * [Main JS Script](js/scripts.js)
 * WeDesign [JS](Wedesign_en/js/scripts.js) and [HTML](Wedesign_en/index.html) scripts
+* JQuery Events [link](37-jquery-events.html)
+* Manipulating BOM [link](25-bom.html)
 
 <br>
 
