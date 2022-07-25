@@ -3,9 +3,10 @@
 
 * [Link to Udemy tutorial](https://www.udemy.com/course/learn-javascript-from-beginner-to-advanced/)
 * [Main JS Script](js/scripts.js)
-* WeDesign [JS](Wedesign_en/js/scripts.js) and [HTML](Wedesign_en/index.html) scripts
-* JQuery Events [link](37-jquery-events.html)
-* Manipulating BOM [link](25-bom.html)
+* WeDesign [JS](Wedesign_en/js/scripts.js)-[HTML](https://htmlpreview.github.io/?https://github.com/Takfes/js-udemy/blob/master/Wedesign_en/index.html)
+* Tshirts [JS](tshirts/js/scripts.js)-[HTML](https://htmlpreview.github.io/?https://github.com/Takfes/js-udemy/blob/master/tshirts/index.html)
+* [JQuery Events](https://htmlpreview.github.io/?https://github.com/Takfes/js-udemy/blob/master/37-jquery-events.html)
+* [BOM ](https://htmlpreview.github.io/?https://github.com/Takfes/js-udemy/blob/master/25-bom.html)
 
 <br>
 
