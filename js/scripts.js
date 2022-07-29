@@ -1,5 +1,89 @@
 
 // ***********************************
+// List of Exercises # 5
+// Exercise 1
+// ***********************************
+
+// const URI = 'https://restcountries.com/v3.1/all'
+
+// function parse_countries(data){
+//     var reponseJson = JSON.parse(data)
+//     var optionList = []
+//     reponseJson.forEach(element => {
+//         optionList.push(`<option>${element.name.common}</option>`)
+//     })
+//     $("#countries").html(optionList.sort())
+//     // console.log(optionList)
+//     // return optionList
+// }
+
+// function get_countries(callback){
+//     xhttp = new XMLHttpRequest()
+//     xhttp.onreadystatechange = function(){
+//         if(this.status==200 && this.readyState==4){
+//             callback(this.responseText)
+//         }
+//     }
+//     xhttp.open("GET",URI)
+//     xhttp.send()
+// }
+
+// $("#countries").click( function(){
+//     console.log('clicked!')
+//     get_countries(parse_countries)
+// })
+
+
+// ***********************************
+// Ajax response
+// ***********************************
+
+// // success error
+// $.ajax({
+//     url : "https://opentdb.com/api.php?amount=1",
+//     type: "GET",
+//     dataType: "json",
+//     success: function(data){
+//         console.log(data);
+//     },
+//     error: function(){
+//         console.log("Error in the request");
+//     }  
+// });
+
+// // done fail
+// $.ajax({
+//     url : "https://opentdb.com/api.php?amount=1",
+//     type: "GET",
+//     dataType: "json"
+// }).done(function(data){
+//     console.log(data);
+// }).fail(function(){
+//     console.log("Error in the request");
+// });
+
+// ***********************************
+// Ajax response
+// ***********************************
+
+// function show_question(data) {
+//     var questionObj = JSON.parse(data);
+//     console.log('The question is: ' + questionObj.results[0].question)
+// }
+// function get_question(callback) {
+//     var xhttp = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+                    
+//     xhttp.onreadystatechange = function() {
+//         if (this.readyState == 4 && this.status == 200) {
+//             callback(this.responseText);   
+//         } 
+//     };
+//     xhttp.open("GET", "https://opentdb.com/api.php?amount=1");
+//     xhttp.send();
+// }
+// get_question(show_question);
+
+// ***********************************
 // Different function declarations
 // ***********************************
 

@@ -4,10 +4,6 @@
 * [Udemy tutorial](https://www.udemy.com/course/learn-javascript-from-beginner-to-advanced/)
 * [JS script](js/scripts.js)
 * [jQuery cheat](https://htmlcheatsheet.com/jquery/)
-* [Ajax Vanilla](https://htmlpreview.github.io/?https://github.com/Takfes/js-udemy/blob/master/47-ajax-response.html)
-* [Ajax jQuery](https://htmlpreview.github.io/?https://github.com/Takfes/js-udemy/blob/master/48-ajax-jquery.html)
-* WeDesign [JS](Wedesign_en/js/scripts.js)-[HTML](https://htmlpreview.github.io/?https://github.com/Takfes/js-udemy/blob/master/Wedesign_en/index.html)
-* Tshirts [JS](tshirts/js/scripts.js)-[HTML](https://htmlpreview.github.io/?https://github.com/Takfes/js-udemy/blob/master/tshirts/index.html)
 
 <br>
 
